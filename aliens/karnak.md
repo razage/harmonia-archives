@@ -1,6 +1,7 @@
 ---
 layout: layouts/harmonia-dossier.njk
 permalink: "alien_profiles/karnak.html"
+category: aliens
 title: Karnak
 homeworld: Anisbe (Herte-0211)
 threat_level: I / Not capable of rebellion on their own.

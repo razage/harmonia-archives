@@ -2,6 +2,7 @@
 title: Thrynn
 layout: layouts/harmonia-dossier.njk
 permalink: "alien_profiles/thrynn.html"
+category: aliens
 homeworld: Unnhild (Jahni-0701)
 threat_level: III / Highly adaptable to any environment.
 

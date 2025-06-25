@@ -1,6 +1,7 @@
 ---
 layout: layouts/harmonia-dossier.njk
 permalink: "alien_profiles/sareth.html"
+category: aliens
 title: Sareth
 homeworld: Muhani (Azi-0800)
 threat_level: II / Low cognitive initiative; high tactical value under direction

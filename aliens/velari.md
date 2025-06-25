@@ -1,6 +1,7 @@
 ---
 layout: layouts/harmonia-dossier.njk
 permalink: "alien_profiles/velari.html"
+category: aliens
 title: Velari
 homeworld: Mayrifa (Permago-0706)
 threat_level: IV / High Psionic Potential

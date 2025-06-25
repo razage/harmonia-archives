@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="./style.min.css" type="text/css"/>
+        <title>Harmonia Archives</title>
+    </head>
+    <body>
+        <div class="description">
+            <p>
+                {{ description }}
+            </p>
+            <p class="disclaimer">
+                {{ disclaimer }}
+            </p>
+        </div>
+        <h2>Aliens</h2>
+        <ul>
+            {% for entry in collections.aliens %}
+                <li>
+                    <a href="{{ entry.data.permalink }}">{{ entry.data.title }}</a>
+                </li>
+            {% endfor %}
+        </ul>
+    </body>
+</html>

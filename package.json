@@ -1,19 +1,25 @@
 {
-    "name": "asta-lambda-lore",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "build:less": "npx lessc less/main.less > _includes/output.css",
-        "build": "npm run build:less && eleventy"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "UNLICENSED",
-    "type": "module",
-    "devDependencies": {
-        "@11ty/eleventy": "^3.1.1",
-        "less": "^4.3.0"
-    }
+  "name": "asta-lambda-lore",
+  "version": "1.0.0",
+  "description": "in-world documents for my SWN campaign setting.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:less": "npx lessc --clean-css less/main.less > docs/style.min.css",
+    "build": "npm run build:less && eleventy"
+  },
+  "keywords": [
+    "swn",
+    "stars without number",
+    "ttrpg",
+    "world building"
+  ],
+  "author": "Razage",
+  "license": "UNLICENSED",
+  "type": "module",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.1",
+    "less": "^4.3.0",
+    "less-plugin-clean-css": "^1.6.0"
+  }
 }

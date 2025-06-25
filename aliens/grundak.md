@@ -1,6 +1,7 @@
 ---
 layout: layouts/harmonia-dossier.njk
 permalink: "alien_profiles/grundak.html"
+category: aliens
 title: Grundak
 homeworld: Rani (Thord-0002)
 threat_level: II / Low chance of rebellion. Monopoly on Tharnite.

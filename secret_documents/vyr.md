@@ -1,6 +1,6 @@
 ---
 layout: layouts/harmonia-dossier.njk
-permalink: "secret_dossiers/vyr.html"
+permalink: "secret_documents/vyr.html"
 title: Vyr
 homeworld: Pane (Kochasigi-0511)
 threat_level: V / Existential threat to the sector / Psionic Hazard
