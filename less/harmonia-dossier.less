@@ -1,73 +1,156 @@
-body.harmonia-dossier {
-	border: 2px solid #555;
-	background-image: radial-gradient(#222 1px, transparent 1px);
-	background-size: 16px 16px;
+/* Harmonia Astralis Dossier Styling - Dark Mode */
+@primary-color: #ffcc33;
+/* Official Harmonia Astralis gold */
+@text-color: #d3d2d2;
+/* Light gray-white for readable text */
+@background-color: #1a1a1a;
+/* Dark gray for dark mode */
+@accent-color: #666633;
+/* Muted olive-gold for subtle highlights */
+@font-stack: 'Helvetica Neue', Arial, sans-serif;
 
-	h1,
-	h2,
-	h3 {
-		color: #ffcc33;
-		border-bottom: 1px solid #444;
-		padding-bottom: 0.25em;
-	}
+html {
+	background: #0f0f0f;
 
-	.dossier-header {
-
-		h1 {
-			border-bottom: none;
-		}
-
-		h2 {
-			margin-top: -30px;
-		}
-
-		h1,
-		h2 {
-			text-align: center;
-		}
+	.dossier {
+		max-width: 800px;
+		margin: 0 auto;
+		padding: 20px;
+		background: @background-color;
+		font-family: @font-stack;
+		color: @text-color;
+		line-height: 1.6;
 
 		svg {
 			display: block;
 			width: 250px;
 			height: 250px;
 			padding: 0;
-			margin: -50px auto;
+			margin: -25px auto;
 		}
-	}
 
-	.section {
-		margin-bottom: 2rem;
-	}
+		.dossier-header {
+			border-bottom: 2px solid @primary-color;
+			padding-bottom: 10px;
+			margin-bottom: 20px;
 
-	.quote blockquote {
-		font-style: italic;
-		color: #88c;
-		margin-top: 2rem;
-		border-left: 4px solid #444;
-		padding-left: 1rem;
+			h1 {
+				font-size: 24px;
+				color: @primary-color;
+				text-transform: uppercase;
+				margin: 0 0 10px;
+				text-align: center;
+				text-transform: uppercase;
+			}
 
-		& footer {
-			margin-top: -15px;
+			.dossier-meta {
+				font-size: 14px;
+
+				p {
+					margin: 5px 0;
+
+					strong {
+						color: @primary-color;
+					}
+				}
+			}
 		}
-	}
 
-	.label {
-		font-weight: bold;
-		color: #ccc;
-	}
+		.dossier-section {
+			margin-bottom: 20px;
 
-	.field {
-		margin: 0.5em 0;
-	}
+			h2 {
+				font-size: 18px;
+				color: @primary-color;
+				border-bottom: 1px solid @primary-color;
+				padding-bottom: 5px;
+				margin-bottom: 10px;
+			}
 
-	hr {
-		border: none;
-		border-top: 1px dashed #555;
-		margin: 2rem 0;
-	}
+			p,
+			ul {
+				font-size: 14px;
+			}
 
-	.trait {
-		font-weight: bold;
-		text-decoration: underline;
+			.section-start {
+				font-weight: bold;
+				text-decoration: underline;
+			}
+
+			ul {
+				list-style-type: none;
+				padding: 0;
+
+				li {
+					margin-bottom: 10px;
+
+					strong {
+						color: @primary-color;
+					}
+				}
+			}
+		}
+
+		.dossier-footer {
+			border-top: 1px solid @primary-color;
+			padding-top: 10px;
+			font-size: 14px;
+
+			p {
+				margin: 5px 0;
+			}
+
+			em {
+				color: @accent-color;
+			}
+		}
+
+		@media print {
+			max-width: none;
+			padding: 10px;
+			background: #fff;
+			/* White background for print */
+			color: #000;
+			/* Black text for print readability */
+
+			.dossier-header {
+				border-bottom: 1px solid @primary-color;
+
+				h1 {
+					color: @primary-color;
+				}
+
+				.dossier-meta {
+					p {
+						strong {
+							color: @primary-color;
+						}
+					}
+				}
+			}
+
+			.dossier-section {
+				h2 {
+					color: @primary-color;
+					border-bottom: 1px solid @primary-color;
+				}
+
+				ul {
+					li {
+						strong {
+							color: @primary-color;
+						}
+					}
+				}
+			}
+
+			.dossier-footer {
+				border-top: 1px solid @primary-color;
+
+				em {
+					color: @primary-color;
+				}
+			}
+		}
 	}
 }
