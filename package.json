@@ -1,10 +1,9 @@
 {
   "name": "asta-lambda-lore",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "in-world documents for my SWN campaign setting.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build:less": "npx lessc --clean-css less/main.less > docs/style.min.css",
     "build": "npm run build:less && eleventy"
   },
@@ -18,8 +17,8 @@
   "license": "UNLICENSED",
   "type": "module",
   "devDependencies": {
-    "@11ty/eleventy": "^3.1.1",
-    "less": "^4.3.0",
+    "@11ty/eleventy": "3.1.2",
+    "less": "4.4.1",
     "less-plugin-clean-css": "^1.6.0"
   }
 }
