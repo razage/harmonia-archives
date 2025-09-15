@@ -3,7 +3,8 @@
     <head>
         <meta charset="UTF-8"/>
         <title>Harmonia Astralis Dossier: {{ title }}</title>
-        <link rel="stylesheet" href="../style.min.css" type="text/css"/>
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
+        <link rel="stylesheet" type="text/css" href="../style.min.css"/>
     </head>
     <body class="harmonia-dossier">
         <div class="dossier-header">
@@ -124,8 +125,8 @@
             <ul>
                 {% for trait in traits %}
                     <li>
-                        <strong>{{ trait.name }}:</strong>
-                        {{ trait.description }}</li>
+                        <span class="trait">{{ trait.name }}</span>: {{ trait.description }}
+                    </li>
                 {% endfor %}
             </ul>
         </div>
