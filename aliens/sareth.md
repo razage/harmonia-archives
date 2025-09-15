@@ -7,16 +7,16 @@ homeworld: Muhani (Azi-0800)
 threat_level: II / Low cognitive initiative; high tactical value under direction
 
 description:
-  - The Sareth are gelatinous, pseudopodic organisms adapted to survive the hostile aquatic conditions of Muhani—an oceanic world known for its violent, unpredictable weather and pressure extremes. Their physiology is dense yet flexible, allowing them to flow through tight spaces and recover from injuries that would kill most lifeforms.
-  - While often underestimated due to their non-humanoid form and diminished intellect, Sareth have proven invaluable in specific operational contexts. Infiltration, sabotage, and high-risk recovery operations benefit from their unique resilience and elusive biological profile. Despite their usefulness, oversight is advised; Sareth do not always understand the full consequences of the tasks they are given.
+  - The Sareth are a gelatinous, pseudopodic species renowned for their extraordinary adaptability to extreme environments and survival scenarios lethal to baseline humanoids. Composed of dense, pliable cellular matrices encased in flexible sheaths, they exhibit remarkable resilience and elusiveness. Contrary to assumptions of passivity due to their soft-bodied form, Sareth have demonstrated proficiency in combat zones, infiltration operations, and post-catastrophe recovery efforts. Referred to simply as "Sareth" in singular and plural forms, derogatory epithets such as "Slimes" or "Gunkers" are inadvisable, as they may incite defensive responses. Harmonia Astralis evaluates the Sareth as a versatile asset for reconnaissance and unconventional warfare, though their elusive biology and lack of discernible homeworld complicate containment and loyalty assessment, potentially enabling subversive activities if alliances falter.
+  - Sareth possess a semi-transparent gelatinous composition, with hues ranging from deep green to luminous blue, maintaining a constant coloration akin to dermal tones in other species. Their bodies, cool and slightly damp, adopt ambient temperatures and exhibit the density of firm gelatin in default humanoid silhouettes. They lack fixed skeletons or organs but feature a pair of contrasting, positionally mutable eyes for omnidirectional vision. Communication occurs via vocalization with an uncanny, resonant quality. As hermaphrodites, they adopt gender identities by adolescence, crafting humanoid features from their mass for social expression.
 
 traits:
   - name: "Shapeshifting Physiology"
-    description: "Can squeeze through tight spaces and extrude pseudopods for tool use. Extended reach up to 2 meters, though precision declines beyond normal arm's length."
+    description: "Sareth can squeeze through extremely tight spaces, such as vent shafts or pipe gaps, provided there is at least an inch or two of clearance. They can extrude pseudopods to manipulate tools, press buttons, or handle weapons, extending reach up to 2 meters, though precision diminishes beyond standard arm's length. However, they cannot convincingly mimic other species' appearances due to their inherently alien structure, limiting their utility for impersonation-based infiltration."
   - name: "Shock Absorption"
-    description: "Reduces kinetic damage by 1 per die (min 1). Ineffective against TL4+ weapons or energy weapons."
+    description: "Against non-energy melee damage (e.g., unarmed strikes, clubs, knives, traditional swords), Sareth reduce the damage by 1 point per die, to a minimum of 1 per attack. This reduction does not apply to advanced melee weapons of TL4 or higher, which are engineered to penetrate organic resilience, nor to energy weapons such as lasers or plasma blades, which bypass this protection entirely."
   - name: "Sensor-Elusive Biology"
-    description: "Undetectable by standard biometric and thermal scanners. Leaves sticky iridescent residue that may be traceable by visual tracking."
+    description: "Sareth emit no standard biosignatures—no heartbeat, conventional respiration, or significant resting body heat—rendering them undetectable by baseline biometric or thermal sensors unless under severe physical stress. However, physical exertion (e.g., rapid movement, combat, or shapeshifting) leaves a sticky, iridescent residue detectable by Notice checks (DC 8) or advanced sensors for 1 hour afterward, facilitating tracking. Military-grade or Sareth-specific scanners (TL4+, prevalent in secure zones) can identify their unique cellular vibrations, nullifying stealth benefits."
 
 threat_profile:
   - "Sareth rarely initiate action without direction and are not considered tactically independent. However, their ability to bypass security systems, elude sensors, and survive high-risk environments makes them dangerous in the hands of hostile actors."
@@ -24,5 +24,5 @@ threat_profile:
 
 quote:
   - text: "No heartbeat. No heat signature. No fear. Only purpose."
-    author: "– Agent Corrix Tael, Deep Zone Containment Unit"
+    author: "– Astral Security Analyst Gaius Marcellus, Dynaran Xenobiology Division"
 ---
