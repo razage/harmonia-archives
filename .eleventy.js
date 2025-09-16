@@ -1,9 +1,14 @@
 export default function (eleventyConfig) {
+  eleventyConfig.addPassthroughCopy("favicon.ico");
+  eleventyConfig.addPassthroughCopy(".nojekyll");
+
+  // Function for forming a correct URL when linking assets
   eleventyConfig.addFilter("url", function (url) {
     const pathPrefix = eleventyConfig.pathPrefix || "/";
     return `${pathPrefix}${url.replace(/^\//, "")}`;
   });
 
+  // Creating a collection of alien articles for template usage
   eleventyConfig.addCollection("aliens", function (collectionApi) {
     return collectionApi
       .getFilteredByGlob("aliens/*.md")
@@ -12,7 +17,7 @@ export default function (eleventyConfig) {
 
   return {
     dir: {
-      output: "docs",
+      output: ".site",
     },
     pathPrefix: "/harmonia-archives/",
   };

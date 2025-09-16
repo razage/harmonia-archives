@@ -1,4 +1,5 @@
 # Directories
+.site
 .vscode
 node_modules
 
