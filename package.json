@@ -4,7 +4,7 @@
   "description": "in-world documents for my SWN campaign setting.",
   "main": "index.js",
   "scripts": {
-    "build:less": "npx lessc --clean-css less/main.less > .site/style.min.css",
+    "build:less": "npx lessc --clean-css less/main.less > style.min.css",
     "build": "npm run build:less && eleventy",
     "run:dev": "npx eleventy --serve --pathprefix=/harmonia-archives/"
   },

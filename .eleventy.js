@@ -1,4 +1,5 @@
 export default function (eleventyConfig) {
+  eleventyConfig.addPassthroughCopy("style.min.css");
   eleventyConfig.addPassthroughCopy("favicon.ico");
   eleventyConfig.addPassthroughCopy(".nojekyll");
 
