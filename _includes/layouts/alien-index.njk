@@ -1,0 +1,19 @@
+{% extends "layouts/base.njk" %}
+{% block content %}
+    <div class="container">
+        <div class="header">
+            <h1>HAI Xeno Dossiers</h1>
+        </div>
+        <ul class="species-list">
+            {% for species in collections.aliens %}
+                {% if not species.data.hidden %}
+                    <li>
+                        {% if species.data.playable %}📑{% else %}📃{% endif %}
+                        <a href="/{{ species.data.permalink }}">{{ species.data.species_name }}</a>
+                    </li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+        <a href="/" class="back-button">Back to Home</a>
+    </div>
+{% endblock %}

@@ -1,7 +1,10 @@
 ---
 layout: layouts/harmonia-dossier.njk
+page_title: "HIA Dossier: Grundak"
 permalink: "alien_profiles/grundak.html"
 category: aliens
+playable: true
+hidden: false
 
 dossier_id: "HAI-XENO-047-GRUD"
 date_compiled: "14 September 2250"

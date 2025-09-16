@@ -1,7 +1,10 @@
 ---
 layout: layouts/harmonia-dossier.njk
+page_title: "HIA Dossier: Velari"
 permalink: "alien_profiles/velari.html"
 category: aliens
+playable: true
+hidden: false
 
 dossier_id: "HA-XENO-051-VLRI"
 date_compiled: "18 September 2250"

@@ -1,7 +1,10 @@
 ---
 layout: layouts/harmonia-dossier.njk
+page_title: "HIA Dossier: Karnak"
 permalink: "alien_profiles/karnak.html"
 category: aliens
+playable: true
+hidden: false
 
 dossier_id: "HAI-XENO-048-KRNK"
 date_compiled: "15 September 2250"

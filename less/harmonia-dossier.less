@@ -1,13 +1,6 @@
-/* Harmonia Astralis Dossier Styling - Dark Mode */
-@primary-color: #ffcc33;
-/* Official Harmonia Astralis gold */
-@text-color: #d3d2d2;
-/* Light gray-white for readable text */
-@background-color: #1a1a1a;
-/* Dark gray for dark mode */
-@accent-color: #666633;
-/* Muted olive-gold for subtle highlights */
-@font-stack: 'Helvetica Neue', Arial, sans-serif;
+@import "_colors.less";
+
+@dossier-fonts: 'Helvetica Neue', Arial, sans-serif;
 
 html {
 	background: #0f0f0f;
@@ -16,9 +9,9 @@ html {
 		max-width: 800px;
 		margin: 0 auto;
 		padding: 20px;
-		background: @background-color;
-		font-family: @font-stack;
-		color: @text-color;
+		background: @dossier-background;
+		font-family: @dossier-fonts;
+		color: @dossier-text;
 		line-height: 1.6;
 
 		svg {
@@ -30,13 +23,13 @@ html {
 		}
 
 		.dossier-header {
-			border-bottom: 2px solid @primary-color;
+			border-bottom: 2px solid @dossier-primary;
 			padding-bottom: 10px;
 			margin-bottom: 20px;
 
 			h1 {
 				font-size: 24px;
-				color: @primary-color;
+				color: @dossier-primary;
 				text-transform: uppercase;
 				margin: 0 0 10px;
 				text-align: center;
@@ -50,7 +43,7 @@ html {
 					margin: 5px 0;
 
 					strong {
-						color: @primary-color;
+						color: @dossier-primary;
 					}
 				}
 			}
@@ -61,8 +54,8 @@ html {
 
 			h2 {
 				font-size: 18px;
-				color: @primary-color;
-				border-bottom: 1px solid @primary-color;
+				color: @dossier-primary;
+				border-bottom: 1px solid @dossier-primary;
 				padding-bottom: 5px;
 				margin-bottom: 10px;
 			}
@@ -85,14 +78,14 @@ html {
 					margin-bottom: 10px;
 
 					strong {
-						color: @primary-color;
+						color: @dossier-primary;
 					}
 				}
 			}
 		}
 
 		.dossier-footer {
-			border-top: 1px solid @primary-color;
+			border-top: 1px solid @dossier-primary;
 			padding-top: 10px;
 			font-size: 14px;
 
@@ -101,7 +94,7 @@ html {
 			}
 
 			em {
-				color: @accent-color;
+				color: @dossier-accent;
 			}
 		}
 
@@ -114,16 +107,16 @@ html {
 			/* Black text for print readability */
 
 			.dossier-header {
-				border-bottom: 1px solid @primary-color;
+				border-bottom: 1px solid @dossier-primary;
 
 				h1 {
-					color: @primary-color;
+					color: @dossier-primary;
 				}
 
 				.dossier-meta {
 					p {
 						strong {
-							color: @primary-color;
+							color: @dossier-primary;
 						}
 					}
 				}
@@ -131,24 +124,24 @@ html {
 
 			.dossier-section {
 				h2 {
-					color: @primary-color;
-					border-bottom: 1px solid @primary-color;
+					color: @dossier-primary;
+					border-bottom: 1px solid @dossier-primary;
 				}
 
 				ul {
 					li {
 						strong {
-							color: @primary-color;
+							color: @dossier-primary;
 						}
 					}
 				}
 			}
 
 			.dossier-footer {
-				border-top: 1px solid @primary-color;
+				border-top: 1px solid @dossier-primary;
 
 				em {
-					color: @primary-color;
+					color: @dossier-primary;
 				}
 			}
 		}

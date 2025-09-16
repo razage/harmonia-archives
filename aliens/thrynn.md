@@ -1,7 +1,10 @@
 ---
 layout: layouts/harmonia-dossier.njk
+page_title: "HIA Dossier: Thrynn"
 permalink: "alien_profiles/thrynn.html"
 category: aliens
+playable: true
+hidden: false
 
 dossier_id: "HAI-XENO-050-THRN"
 date_compiled: "17 September 2250"

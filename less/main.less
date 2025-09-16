@@ -1,5 +1,6 @@
 @import "index.less";
 @import "harmonia-dossier.less";
+@import "alien-index.less";
 
 body {
 	background: #111;
@@ -8,4 +9,15 @@ body {
 	padding: 2rem;
 	max-width: 800px;
 	margin: auto;
+}
+
+.new-content::before {
+	content: "NEW";
+	display: inline-block;
+	background-color: @home-primary;
+	color: white;
+	padding: 0px 8px;
+	border-radius: 3px;
+	font-size: 0.8em;
+	vertical-align: middle;
 }

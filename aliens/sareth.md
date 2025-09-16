@@ -1,7 +1,10 @@
 ---
 layout: layouts/harmonia-dossier.njk
+page_title: "HIA Dossier: Sareth"
 permalink: "alien_profiles/sareth.html"
 category: aliens
+playable: true
+hidden: false
 
 dossier_id: "HAI-XENO-049-SRTH"
 date_compiled: "16 September 2250"
