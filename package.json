@@ -1,11 +1,12 @@
 {
   "name": "asta-lambda-lore",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "in-world documents for my SWN campaign setting.",
   "main": "index.js",
   "scripts": {
     "build:less": "npx lessc --clean-css less/main.less > docs/style.min.css",
-    "build": "npm run build:less && eleventy"
+    "build": "npm run build:less && eleventy",
+    "run:dev": "npx eleventy --serve --pathprefix=/harmonia-archives/"
   },
   "keywords": [
     "swn",

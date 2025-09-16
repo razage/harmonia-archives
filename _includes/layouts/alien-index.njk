@@ -9,7 +9,7 @@
                 {% if not species.data.hidden %}
                     <li>
                         {% if species.data.playable %}📑{% else %}📃{% endif %}
-                        <a href="/{{ species.data.permalink }}">{{ species.data.species_name }}</a>
+                        <a href="{{ species.data.permalink | url }}">{{ species.data.species_name }}</a>
                     </li>
                 {% endif %}
             {% endfor %}
