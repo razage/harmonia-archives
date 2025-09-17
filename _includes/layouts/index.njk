@@ -1,4 +1,4 @@
-{% extends "layouts/base.njk" %}
+{% extends "templates/base.njk" %}
 {% block content %}
   <main class="homepage">
     <header class="site-header">
@@ -36,7 +36,7 @@
           {% endfor %}
         </ul>
       </div>
-      <a href="#">See the rest...</a>
+      <a href="hv/">See the rest...</a>
     </section>
     <section class="categories-section">
       <h2>Browse by Category</h2>
@@ -45,7 +45,7 @@
           {% include "snippets/new-content.njk" %}
           <a href="alien_profiles/">Alien Species Profiles</a>
           – Classified dossiers on xenos, extracted from "secure" HAI servers. Why are the making these?
-                    🤔
+          🤔
         </li>
       </section>
     </main>

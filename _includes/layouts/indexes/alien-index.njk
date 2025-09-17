@@ -1,4 +1,4 @@
-{% extends "layouts/base.njk" %}
+{# {% extends "layouts/base.njk" %}
 {% block content %}
     <div class="container">
         <div class="header">
@@ -16,4 +16,15 @@
         </ul>
         <a href="{{ '/'| url }}" class="back-button">Back to Home</a>
     </div>
+{% endblock %} #}
+{% extends "templates/directory-listing.njk" %}
+{% block directory_list %}
+    {% for species in collections.aliens %}
+        {% if not species.data.hidden %}
+            <li>
+                {% if species.data.playable %}📑{% else %}📃{% endif %}
+                <a href="{{ species.data.permalink | url }}">{{ species.data.species_name }}</a>
+            </li>
+        {% endif %}
+    {% endfor %}
 {% endblock %}
