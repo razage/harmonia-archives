@@ -19,7 +19,7 @@ export default function (eleventyConfig) {
   eleventyConfig.addCollection("voxArticles", function (collectionApi) {
     return collectionApi
       .getFilteredByGlob("harmonia-vox/*.md")
-      .sort((a, b) => a.data.article_date.localeCompare(b.data.article_date));
+      .sort((a, b) => b.data.article_date.localeCompare(a.data.article_date));
   });
 
   return {
