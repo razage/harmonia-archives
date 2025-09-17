@@ -1,0 +1,39 @@
+{% extends "layouts/base.njk" %}
+{% block content %}
+    <div class="vox-news-container">
+        {% include "snippets/archive-notice.njk" %}
+        <div class="vox-header">
+            <h1>Harmonia Vox</h1>
+            <p>The Voice of Harmonia Astralis - Unity Through Strength</p>
+        </div>
+        <div class="vox-nav">
+            <a href="#">Home</a>
+            <a href="#">Politics</a>
+            <a href="#">Economy</a>
+            <a href="#">Military</a>
+            <a href="#">Culture</a>
+        </div>
+        <div class="vox-sidebar">
+            <h3>Related Stories</h3>
+            <ul>
+                {% for story in related_stories %}
+                    <li>
+                        <a href="#">{{ story }}</a>
+                    </li>
+                {% endfor %}
+            </ul>
+            <h3>Imperial Calendar</h3>
+            <p>Upcoming: Festival of Unity - Dynara Plaza, 2250.10.01</p>
+        </div>
+        <div class="vox-article">
+            <h2>{{ article_title }}</h2>
+            <div class="vox-byline">{{ article_byline }}</div>
+            {% for paragraph in article_contents %}
+                <p>{{ paragraph }}</p>
+            {% endfor %}
+        </div>
+        <div class="vox-footer">
+            &copy; 3200 Harmonia Vox - All Rights Reserved. Published under the auspices of Harmonia Astralis.
+        </div>
+    </div>
+{% endblock %}

@@ -1,6 +1,7 @@
 ---
 layout: layouts/harmonia-dossier.njk
 page_title: "HIA Dossier: Thrynn"
+body_class: dossier-body
 permalink: "alien_profiles/thrynn.html"
 category: aliens
 playable: true

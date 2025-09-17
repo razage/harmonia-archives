@@ -1,6 +1,7 @@
 ---
 layout: layouts/harmonia-dossier.njk
 page_title: "HIA Dossier: Grundak"
+body_class: dossier-body
 permalink: "alien_profiles/grundak.html"
 category: aliens
 playable: true
