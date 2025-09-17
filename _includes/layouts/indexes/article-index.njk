@@ -19,6 +19,9 @@
 {% block directory_list %}
     {% for article in collections.voxArticles %}
         <li>
+            {% if article.data.new_article %}
+                {% include "snippets/new-content.njk" %}
+            {% endif %}
             📰
             <a href="{{ article.data.permalink }}">{{ article.data.article_date }} - {{ article.data.article_title }}</a>
         </li>

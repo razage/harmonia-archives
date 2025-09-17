@@ -29,6 +29,9 @@
           {% for article in collections.voxArticles %}
             {% if loop.index <= 5 %}
               <li class="news-item">
+                {% if article.data.new_article %}
+                  {% include "snippets/new-content.njk" %}
+                {% endif %}
                 📰
                 <a href="{{ article.data.permalink }}">{{ article.data.article_date }} - {{ article.data.article_title }}</a>
               </li>
@@ -36,7 +39,9 @@
           {% endfor %}
         </ul>
       </div>
-      <a href="hv/">See the rest...</a>
+      <div class="archive-button">
+        <a href="hv/">Explore the archives</a>
+      </div>
     </section>
     <section class="categories-section">
       <h2>Browse by Category</h2>
@@ -45,7 +50,7 @@
           {% include "snippets/new-content.njk" %}
           <a href="alien_profiles/">Alien Species Profiles</a>
           – Classified dossiers on xenos, extracted from "secure" HAI servers. Why are the making these?
-          🤔
+                    🤔
         </li>
       </section>
     </main>
