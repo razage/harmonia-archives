@@ -10,7 +10,7 @@
 
 	.site-header {
 		text-align: center;
-		padding: 40px 20px;
+		padding: 20px;
 		border-bottom: 2px solid @home-primary;
 
 		h1 {
@@ -51,7 +51,14 @@
 		}
 	}
 
-	.featured-section,
+	.featured-section {
+		h2 {
+			text-align: center;
+			color: @home-primary;
+			margin: 10px 0px;
+		}
+	}
+
 	.categories-section {
 		padding: 40px 20px;
 		max-width: 1200px;
@@ -62,34 +69,6 @@
 			font-size: 24px;
 			margin-bottom: 20px;
 			text-align: center;
-		}
-	}
-
-	.featured-grid {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-		gap: 20px;
-
-		.featured-item {
-			background: rgba(255, 255, 255, 0.05);
-			padding: 20px;
-			border: 1px solid @home-secondary;
-			border-radius: 5px;
-
-			h3 a {
-				color: @home-primary;
-				text-decoration: none;
-
-				&:hover {
-					text-decoration: underline;
-				}
-			}
-
-			.category {
-				color: @home-secondary;
-				font-size: 12px;
-				text-transform: uppercase;
-			}
 		}
 	}
 
@@ -135,7 +114,6 @@
 			border-top: 1px solid #000;
 		}
 
-		.featured-item,
 		.category-list li {
 			border-color: #000;
 			background: none;

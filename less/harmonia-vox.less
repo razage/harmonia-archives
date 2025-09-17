@@ -7,7 +7,6 @@ body.vox-article-body {
 }
 
 .vox-news-container {
-	max-width: 1200px;
 	margin: 0 auto;
 	padding: 20px;
 
@@ -19,7 +18,6 @@ body.vox-article-body {
 		text-align: center;
 
 		h1 {
-			// text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 			font-size: 2.5em;
 			margin: 0;
 			text-transform: uppercase;
@@ -42,7 +40,7 @@ body.vox-article-body {
 	.vox-article {
 		background-color: white;
 		padding: 20px;
-		margin-top: 20px;
+		margin-top: 0px;
 		border: 1px solid @vox-borders;
 
 		h2 {
@@ -65,12 +63,12 @@ body.vox-article-body {
 		float: right;
 		width: 300px;
 		background-color: #f8f8f8;
-		padding: 15px;
-		margin-top: 20px;
+		padding: 15px 15px 0px 15px;
+		margin-top: 0px;
 		border: 1px solid @vox-borders;
 
 		h3 {
-			margin-top: -10px;
+			margin-top: -5px;
 			color: @vox-primary;
 		}
 
@@ -81,13 +79,19 @@ body.vox-article-body {
 		ul {
 			padding: 0;
 			margin-left: 10px;
+			list-style-type: "►";
+			color: @vox-primary;
 
-			a {
-				color: black;
-				text-decoration: none;
+			li {
+				padding-left: 5px;
 
-				&:hover {
-					cursor: not-allowed;
+				a {
+					color: @vox-dark;
+					text-decoration: none;
+
+					&:hover {
+						cursor: not-allowed;
+					}
 				}
 			}
 		}

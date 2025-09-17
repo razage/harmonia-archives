@@ -16,6 +16,12 @@ export default function (eleventyConfig) {
       .sort((a, b) => a.data.species_name.localeCompare(b.data.species_name));
   });
 
+  eleventyConfig.addCollection("voxArticles", function (collectionApi) {
+    return collectionApi
+      .getFilteredByGlob("harmonia-vox/*.md")
+      .sort((a, b) => a.data.article_date.localeCompare(b.data.article_date));
+  });
+
   return {
     dir: {
       output: ".site",
