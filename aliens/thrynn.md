@@ -8,7 +8,7 @@ playable: true
 hidden: false
 
 dossier_id: "HAI-XENO-050-THRN"
-date_compiled: "17 September 2250"
+date_compiled: "06 June 3185"
 compiler: "Astral Security Analyst Gaius Florius"
 verification_confidence: 88
 species_name: "Thrynn"

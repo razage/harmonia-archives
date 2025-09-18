@@ -8,7 +8,7 @@ playable: true
 hidden: false
 
 dossier_id: "HA-XENO-051-VLRI"
-date_compiled: "18 September 2250"
+date_compiled: "27 November 3170"
 compiler: "Astral Security Analyst Quintus Aelius"
 verification_confidence: 86
 species_name: "Velari"

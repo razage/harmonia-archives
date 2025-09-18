@@ -8,7 +8,7 @@ playable: true
 hidden: false
 
 dossier_id: "HAI-XENO-048-KRNK"
-date_compiled: "15 September 2250"
+date_compiled: "15 August 3190"
 compiler: "Astral Security Analyst Lucius Varro"
 verification_confidence: 87
 species_name: "Karnak"

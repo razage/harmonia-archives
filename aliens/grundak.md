@@ -8,7 +8,7 @@ playable: true
 hidden: false
 
 dossier_id: "HAI-XENO-047-GRUD"
-date_compiled: "14 September 2250"
+date_compiled: "14 March 3175"
 compiler: "Astral Security Analyst Vibius Korvan"
 verification_confidence: 89
 species_name: "Grundak"

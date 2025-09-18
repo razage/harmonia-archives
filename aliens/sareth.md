@@ -8,7 +8,7 @@ playable: true
 hidden: false
 
 dossier_id: "HAI-XENO-049-SRTH"
-date_compiled: "16 September 2250"
+date_compiled: "21 January 3160"
 compiler: "Astral Security Analyst Marcus Tullius"
 verification_confidence: 90
 species_name: "Sareth"

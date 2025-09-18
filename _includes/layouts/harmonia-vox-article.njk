@@ -26,7 +26,7 @@
         </div>
         <div class="vox-article">
             <h2>{{ article_title }}</h2>
-            <div class="vox-byline">{{ article_byline }}</div>
+            <div class="vox-byline">By {{ article_author }} - Published at {{ article_published_time }}</div>
             {% for paragraph in article_contents %}
                 <p>{{ paragraph }}</p>
             {% endfor %}
