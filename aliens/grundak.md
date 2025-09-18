@@ -9,7 +9,7 @@ hidden: false
 
 dossier_id: "HAI-XENO-047-GRUD"
 date_compiled: "14 March 3175"
-compiler: "Astral Security Analyst Vibius Korvan"
+compiler: "Strategic Risk Assessor Vibius Korvan"
 verification_confidence: 89
 species_name: "Grundak"
 homeworld: "Rani (Thord-0002)"
@@ -54,5 +54,5 @@ operational_recommendations:
 
 quote:
   text: "The Grundak are the anvil of the stars—unyielding, indispensable, but strike them wrong, and the hammer breaks."
-  author: "Astral Security Analyst Vibius Korvan"
+  author: "Vibius Korvan, Strategic Risk Assessor"
 ---

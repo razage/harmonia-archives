@@ -133,16 +133,18 @@
                     <span class="section-start">{{ item.title }}</span>: {{ item.description }}</p>
             {% endfor %}
         </section>
-        <section class="dossier-section">
-            <h2>Xeno-Focus Evaluation: {{ focus_name }}</h2>
-            <ul>
-                {% for trait in traits %}
-                    <li>
-                        <strong>{{ trait.name }}:</strong>
-                        {{ trait.description }}</li>
-                {% endfor %}
-            </ul>
-        </section>
+        {% if playable %}
+            <section class="dossier-section">
+                <h2>Xeno-Focus Evaluation: {{ focus_name }}</h2>
+                <ul>
+                    {% for trait in traits %}
+                        <li>
+                            <strong>{{ trait.name }}:</strong>
+                            {{ trait.description }}</li>
+                    {% endfor %}
+                </ul>
+            </section>
+        {% endif %}
         <section class="dossier-section">
             <h2>Operational Recommendations</h2>
             {% for item in operational_recommendations %}

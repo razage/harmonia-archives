@@ -9,7 +9,7 @@ hidden: false
 
 dossier_id: "HAI-XENO-050-THRN"
 date_compiled: "06 June 3185"
-compiler: "Astral Security Analyst Gaius Florius"
+compiler: "Sector Intelligence Operative Gaius Florius"
 verification_confidence: 88
 species_name: "Thrynn"
 homeworld: "Unnhild (Jahni-0701)"
@@ -55,5 +55,5 @@ operational_recommendations:
 
 quote:
   text: "The Thrynn are rooted in light, blooming in peace yet sharp as thorns when pressed—a paradox of serenity and strength."
-  author: "Astral Security Analyst Gaius Florius"
+  author: "Gaius Florius, Sector Intelligence Operative"
 ---

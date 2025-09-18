@@ -9,7 +9,7 @@ hidden: false
 
 dossier_id: "HAI-XENO-049-SRTH"
 date_compiled: "21 January 3160"
-compiler: "Astral Security Analyst Marcus Tullius"
+compiler: "Astral Tactics Coordinator Marcus Tullius"
 verification_confidence: 90
 species_name: "Sareth"
 homeworld: "Muhani (Azi-0800)"
@@ -55,5 +55,5 @@ operational_recommendations:
 
 quote:
   text: "The Sareth flow where others shatter—elusive allies or insidious foes, depending on the shadows they cast."
-  author: "Astral Security Analyst Marcus Tullius"
+  author: "Marcus Tullius, Astral Tactics Coordinator"
 ---

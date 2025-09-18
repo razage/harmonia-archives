@@ -9,7 +9,7 @@ hidden: false
 
 dossier_id: "HAI-XENO-048-KRNK"
 date_compiled: "15 August 3190"
-compiler: "Astral Security Analyst Lucius Varro"
+compiler: "Planetary Liaison Officer Lucius Varro"
 verification_confidence: 87
 species_name: "Karnak"
 homeworld: "Anisbe (Herte-0211)"
@@ -54,5 +54,5 @@ operational_recommendations:
 
 quote:
   text: "The Karnak are a blade honed by their own blood—loyal to those who pay in honor, lethal to those who cross them."
-  author: "Astral Security Analyst Lucius Varro"
+  author: "Lucius Varro, Planetary Liaison Officer"
 ---

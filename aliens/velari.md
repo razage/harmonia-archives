@@ -12,7 +12,7 @@ date_compiled: "27 November 3170"
 compiler: "Astral Security Analyst Quintus Aelius"
 verification_confidence: 86
 species_name: "Velari"
-homeworld: "Mayrifa"
+homeworld: "Mayrifa (Permago-0706)"
 threat_level: "Moderate"
 focus_name: "Velari Heritage"
 
@@ -57,5 +57,5 @@ operational_recommendations:
 
 quote:
   text: "The Velari see beyond the veil of the material, their minds as sharp as their bodies are fragile—a duality to be both harnessed and feared."
-  author: "Astral Security Analyst Quintus Aelius"
+  author: "Quintus Aelius, Astral Security Analyst"
 ---
