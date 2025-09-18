@@ -7,8 +7,10 @@ body.vox-article-body {
 }
 
 .vox-news-container {
+	max-width: 1200px;
 	margin: 0 auto;
 	padding: 20px;
+	overflow: hidden;
 
 	.vox-header {
 		background-color: @vox-primary;
@@ -42,9 +44,11 @@ body.vox-article-body {
 		padding: 20px;
 		margin-top: 0px;
 		border: 1px solid @vox-borders;
+		margin-right: 320px;
 
 		h2 {
 			font-size: 2em;
+			color: @vox-primary;
 		}
 
 		.vox-byline {
@@ -63,12 +67,11 @@ body.vox-article-body {
 		float: right;
 		width: 300px;
 		background-color: #f8f8f8;
-		padding: 15px 15px 0px 15px;
 		margin-top: 0px;
 		border: 1px solid @vox-borders;
 
 		h3 {
-			margin-top: -5px;
+			margin: 5px 0 0 10px;
 			color: @vox-primary;
 		}
 
@@ -84,9 +87,10 @@ body.vox-article-body {
 
 			li {
 				padding-left: 5px;
+				margin-left: 10px;
 
 				a {
-					color: @vox-dark;
+					color: @vox-footer-text;
 					text-decoration: none;
 
 					&:hover {
@@ -103,4 +107,60 @@ body.vox-article-body {
 	margin-top: 20px;
 	color: @vox-footer-text;
 	font-size: 0.8em;
+	clear: both;
+}
+
+// Adjustments for phones/small screens
+@media (max-width: 768px) {
+	.vox-news-container {
+		padding: 10px;
+		overflow: visible;
+	}
+
+	.vox-article {
+		margin-right: 0;
+		width: 100%;
+		padding: 15px;
+		overflow-wrap: break-word;
+	}
+
+	.vox-sidebar {
+		float: none;
+		width: 100%;
+		margin-top: 15px;
+		padding: 10px;
+	}
+
+	.vox-article h2 {
+		font-size: 1.8em;
+	}
+
+	.vox-sidebar h3 {
+		font-size: 1.3em;
+	}
+
+	.vox-sidebar ul li {
+		margin-bottom: 8px;
+	}
+
+	// Adjustments for screens even smaller than phones?
+	@media (max-width: 480px) {
+
+		.vox-article,
+		.vox-sidebar {
+			padding: 10px;
+		}
+
+		.vox-article h2 {
+			font-size: 1.6em;
+		}
+
+		.vox-sidebar h3 {
+			font-size: 1.2em;
+		}
+
+		.vox-sidebar ul li a {
+			font-size: 0.9em;
+		}
+	}
 }
