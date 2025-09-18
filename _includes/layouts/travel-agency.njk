@@ -20,11 +20,11 @@
                 <div class="travel-stats">
                     <div class="travel-stat">
                         <span class="travel-stat-label">Atmosphere</span>
-                        {{ atmosphere }}
+                        <span {% if warnings.atmosphere %} class="warning" {% endif %}>{{ atmosphere }}</span>
                     </div>
                     <div class="travel-stat">
                         <span class="travel-stat-label">Temperature</span>
-                        {{ temperature }}
+                        <span {% if warnings.temperature %} class="warning" {% endif %}>{{ temperature }}</span>
                     </div>
                     <div class="travel-stat">
                         <span class="travel-stat-label">Population</span>
@@ -34,12 +34,6 @@
                         <span class="travel-stat-label">Tech Level</span>
                         {{ tech_level }}
                     </div>
-                    {% if factions %}
-                        <div class="travel-stat">
-                            <span class="travel-stat-label">Dominant Faction</span>
-                            {{ factions | join(', ') }}
-                        </div>
-                    {% endif %}
                 </div>
             </div>
         </section>

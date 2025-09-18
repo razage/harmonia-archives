@@ -1,9 +1,11 @@
 ---
 layout: layouts/travel-agency.njk
-page_title: "Travel Agency: Dynara"
+page_title: "ACS: Dynara"
 body_class: travel-body
 permalink: "acs/dynara.html"
 category: planet
+
+recent: true
 
 system: "Ros-0504"
 planet_name: "Dynara"
@@ -11,6 +13,7 @@ atmosphere: "Breathable"
 temperature: "Mild"
 population: "5,460,013,720"
 tech_level: "TL5"
+
 notable_things:
   Places:
     - name: "Bacchus"

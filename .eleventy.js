@@ -9,7 +9,7 @@ export default function (eleventyConfig) {
     return `${pathPrefix}${url.replace(/^\//, "")}`;
   });
 
-  // Creating a collection of alien articles for template usage
+  // Creating collections
   eleventyConfig.addCollection("aliens", function (collectionApi) {
     return collectionApi
       .getFilteredByGlob("aliens/*.md")
@@ -20,6 +20,12 @@ export default function (eleventyConfig) {
     return collectionApi
       .getFilteredByGlob("harmonia-vox/*.md")
       .sort((a, b) => b.data.article_date.localeCompare(a.data.article_date));
+  });
+
+  eleventyConfig.addCollection("astraPlanets", function (collectionApi) {
+    return collectionApi
+      .getFilteredByGlob("travel-agency/*.md")
+      .sort((a, b) => a.data.planet_name.localeCompare(b.data.planet_name));
   });
 
   return {

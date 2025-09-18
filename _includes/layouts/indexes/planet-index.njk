@@ -1,0 +1,12 @@
+{% extends "templates/directory-listing.njk" %}
+{% block directory_list %}
+    {% for planet in collections.astraPlanets %}
+        <li>
+            {% if planet.data.recent %}
+                {% include "snippets/new-content.njk" %}
+            {% endif %}
+            🪐
+            <a href="{{ planet.data.permalink }}">{{ planet.data.planet_name }}</a>
+        </li>
+    {% endfor %}
+{% endblock %}
