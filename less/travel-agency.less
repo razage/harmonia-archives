@@ -1,0 +1,190 @@
+@import "_colors.less";
+
+/* Body */
+.travel-body {
+	font-family: 'Georgia', serif;
+	line-height: 1.6;
+	color: @astra-dark;
+	background: linear-gradient(to bottom, darken(@astra-background, 10%), darken(@astra-gradient, 5%));
+	padding: 0;
+}
+
+/* Page Wrapper */
+.travel-page-wrapper {
+	max-width: 1200px;
+	margin: 20px auto;
+	background: @astra-background;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
+	overflow: hidden;
+}
+
+/* Header */
+.travel-header {
+	background: linear-gradient(to right, @astra-yellow, darken(@astra-yellow, 10%));
+	color: @astra-text;
+	padding: 20px;
+	text-align: center;
+
+	.travel-logo {
+		font-size: 2.5em;
+		font-weight: bold;
+		margin: 0;
+		text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+	}
+
+	.travel-tagline {
+		color: lighten(@astra-dark, 30%);
+		font-style: italic;
+		margin: 5px 0 0 0;
+		opacity: 0.9;
+	}
+}
+
+/* Navigation */
+.travel-nav {
+	background: lighten(@astra-background, 2%);
+	padding: 10px;
+	text-align: center;
+
+	a {
+		color: @astra-dark;
+		text-decoration: none;
+		margin: 0 15px;
+		font-weight: bold;
+		transition: color 0.3s;
+	}
+}
+
+/* Hero Section */
+.travel-hero {
+	background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300"><rect fill="%23fef8e8" width="1200" height="300"/><circle fill="%23ffd966" cx="600" cy="150" r="80" opacity="0.2"/><circle fill="%23ffffff" cx="900" cy="50" r="25" opacity="0.4"/></svg>') no-repeat center/cover;
+	color: @astra-dark;
+	padding: 40px 20px;
+	text-align: center;
+	position: relative;
+
+	&::before {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: rgba(0, 0, 0, 0.2);
+	}
+
+	.travel-hero-content {
+		position: relative;
+		z-index: 1;
+
+		.travel-planet-name {
+			font-size: 2.8em;
+			margin: 0 0 10px 0;
+			color: @astra-blue;
+			text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+		}
+
+		.travel-system-name {
+			font-size: 1.4em;
+			opacity: 0.8;
+		}
+
+		.travel-stats {
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+			gap: 10px;
+			margin: 20px auto;
+			max-width: 800px;
+			background: rgba(255, 255, 255, 0.8);
+			padding: 15px;
+			border-radius: 8px;
+			border: 1px solid @astra-yellow;
+
+			.travel-stat {
+				text-align: center;
+				font-weight: bold;
+
+				.travel-stat-label {
+					text-decoration: underline;
+					font-size: 0.9em;
+					opacity: 0.7;
+					display: block;
+				}
+			}
+		}
+	}
+}
+
+/* Content Sections */
+.travel-content {
+	padding: 30px;
+
+	.travel-section {
+		margin-bottom: 30px;
+		padding: 20px;
+		background: @astra-background;
+		border-left: 3px solid @astra-yellow;
+		border-radius: 0 5px 5px 0;
+
+		h1 {
+			color: @astra-blue;
+			border-bottom: 2px solid @astra-blue;
+			padding-bottom: 10px;
+			margin-top: 0;
+		}
+
+		.travel-place-item {
+			margin-bottom: 15px;
+
+			strong {
+				color: @astra-blue;
+				font-size: 1.1em;
+			}
+
+			p {
+				margin: 5px 0 0 0;
+			}
+
+			.travel-sub-locations {
+				margin: 10px 0 0 20px;
+
+				li {
+					margin-bottom: 8px;
+					color: @astra-dark;
+				}
+			}
+		}
+	}
+}
+
+/* Footer */
+.travel-footer {
+	background: @astra-blue;
+	color: @astra-text;
+	text-align: center;
+	padding: 5px;
+	font-size: 0.9em;
+}
+
+/* Call to Action */
+.travel-cta {
+	text-align: center;
+	background: transparent;
+	border: 2px solid @astra-yellow;
+	color: @astra-dark;
+	padding: 15px;
+	margin: 20px 0;
+	border-radius: 5px;
+
+	a {
+		color: @astra-dark;
+		text-decoration: none;
+		font-weight: bold;
+	}
+}
+
+.travel-nav a:hover,
+.travel-cta a:hover {
+	cursor: not-allowed;
+}

@@ -1,0 +1,80 @@
+{% extends "templates/base.njk" %}
+{% block content %}
+    {% include "snippets/archive-notice.njk" %}
+    <div class="travel-page-wrapper">
+        <header class="travel-header">
+            <h1 class="travel-logo">Astra Corona Starlines</h1>
+            <p class="travel-tagline">Journey the Stars, Crowned by Wonder</p>
+        </header>
+        <nav class="travel-nav">
+            <a href="#">Home</a>
+            <a href="#">Destinations</a>
+            <a href="#">Packages</a>
+            <a href="#">Book Now</a>
+            <a href="#">Contact</a>
+        </nav>
+        <section class="travel-hero">
+            <div class="travel-hero-content">
+                <h1 class="travel-planet-name">{{ planet_name }}</h1>
+                <p class="travel-system-name">System: {{ system }}</p>
+                <div class="travel-stats">
+                    <div class="travel-stat">
+                        <span class="travel-stat-label">Atmosphere</span>
+                        {{ atmosphere }}
+                    </div>
+                    <div class="travel-stat">
+                        <span class="travel-stat-label">Temperature</span>
+                        {{ temperature }}
+                    </div>
+                    <div class="travel-stat">
+                        <span class="travel-stat-label">Population</span>
+                        {{ population }}
+                    </div>
+                    <div class="travel-stat">
+                        <span class="travel-stat-label">Tech Level</span>
+                        {{ tech_level }}
+                    </div>
+                    {% if factions %}
+                        <div class="travel-stat">
+                            <span class="travel-stat-label">Dominant Faction</span>
+                            {{ factions | join(', ') }}
+                        </div>
+                    {% endif %}
+                </div>
+            </div>
+        </section>
+        <div class="travel-content">
+            {% if description %}
+                <section class="travel-section">
+                    <h1>About {{ planet_name }}</h1>
+                    <div class="travel-prose">{{ description | safe }}</div>
+                </section>
+            {% endif %}
+            {% if notable_things.Places %}
+                <section class="travel-section">
+                    <h1>Places to Visit</h1>
+                    {% for place in notable_things.Places %}
+                        <div class="travel-place-item">
+                            <strong>{{ place.name }}</strong>
+                            <p>{{ place.description | safe }}</p>
+                            {% if place.sub_locations %}
+                                <ul class="travel-sub-locations">
+                                    {% for sub in place.sub_locations %}
+                                        <li>{{ sub.name }}: {{ sub.description }}</li>
+                                    {% endfor %}
+                                </ul>
+                            {% endif %}
+                        </div>
+                    {% endfor %}
+                </section>
+            {% endif %}
+            <p class="travel-cta">Ready to explore {{ planet_name }}?
+                <a href="#">Book Your Stellar Journey Now</a>
+                – Discover the Wonders of the Sector!</p>
+        </div>
+        <footer class="travel-footer">
+            <p>&copy; 2025 Astra Corona Starlines | A Division of Unity Holdings, Inc. | Dynara Prime Outpost</p>
+            <p>All travels subject to Harmonia Astralis security protocols.</p>
+        </footer>
+    </div>
+{% endblock %}
