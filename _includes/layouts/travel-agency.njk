@@ -37,6 +37,14 @@
                 </div>
             </div>
         </section>
+        {% if travel_advisory %}
+            <section class="travel-advisory">
+                <div class="travel-advisory-content">
+                    <h2>Travel Advisory</h2>
+                    <p>{{ travel_advisory }}</p>
+                </div>
+            </section>
+        {% endif %}
         <div class="travel-content">
             {% if description %}
                 <section class="travel-section">
