@@ -12,19 +12,19 @@ export default function (eleventyConfig) {
   // Creating collections
   eleventyConfig.addCollection("aliens", function (collectionApi) {
     return collectionApi
-      .getFilteredByGlob("aliens/*.md")
+      .getFilteredByGlob("content/aliens/*.md")
       .sort((a, b) => a.data.species_name.localeCompare(b.data.species_name));
   });
 
   eleventyConfig.addCollection("voxArticles", function (collectionApi) {
     return collectionApi
-      .getFilteredByGlob("harmonia_vox/*.md")
+      .getFilteredByGlob("content/harmonia_vox/*.md")
       .sort((a, b) => b.data.article_date.localeCompare(a.data.article_date));
   });
 
   eleventyConfig.addCollection("astraPlanets", function (collectionApi) {
     return collectionApi
-      .getFilteredByGlob("travel_agency/*.md")
+      .getFilteredByGlob("content/travel_agency/*.md")
       .sort((a, b) => a.data.planet_name.localeCompare(b.data.planet_name));
   });
 

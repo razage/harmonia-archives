@@ -2,7 +2,7 @@
 layout: layouts/harmonia-dossier.njk
 page_title: "HIA Dossier: Sareth"
 body_class: dossier-body
-permalink: "alien_profiles/sareth.html"
+permalink: "aliens/sareth.html"
 category: aliens
 playable: true
 hidden: false

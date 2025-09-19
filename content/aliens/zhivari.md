@@ -2,7 +2,7 @@
 layout: layouts/harmonia-dossier.njk
 page_title: "HIA Dossier: Zhivari"
 body_class: dossier-body
-permalink: "alien_profiles/zhivari.html"
+permalink: "aliens/zhivari.html"
 category: aliens
 playable: false
 hidden: true

@@ -2,7 +2,7 @@
 layout: layouts/harmonia-dossier.njk
 page_title: "HIA Dossier: Karnak"
 body_class: dossier-body
-permalink: "alien_profiles/karnak.html"
+permalink: "aliens/karnak.html"
 category: aliens
 playable: true
 hidden: false

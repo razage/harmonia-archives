@@ -2,7 +2,7 @@
 layout: layouts/harmonia-dossier.njk
 page_title: "HIA Dossier: Velari"
 body_class: dossier-body
-permalink: "alien_profiles/velari.html"
+permalink: "aliens/velari.html"
 category: aliens
 playable: true
 hidden: false
