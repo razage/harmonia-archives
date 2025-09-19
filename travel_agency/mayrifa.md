@@ -6,6 +6,9 @@ permalink: "acs/mayrifa.html"
 category: planet
 
 recent: true
+warnings:
+  atmosphere: true
+travel_advisory: "Travelers are advised to wear pressure masks outside designated areas due to Mayrifa's thin atmosphere. Major cities and facilities provide safe, filtered environments for a comfortable visit."
 
 system: "Permago-0706"
 planet_name: "Mayrifa"
@@ -13,8 +16,6 @@ atmosphere: "Thin Oxygen"
 temperature: "Chilly to Mild"
 population: "592,214,233"
 tech_level: "TL4+"
-warnings:
-  atmosphere: true
 
 notable_things:
   Places:
