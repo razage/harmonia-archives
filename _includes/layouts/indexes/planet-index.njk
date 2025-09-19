@@ -6,7 +6,7 @@
                 {% include "snippets/new-content.njk" %}
             {% endif %}
             🪐
-            <a href="{{ planet.data.permalink }}">{{ planet.data.planet_name }}</a>
+            <a href="{{ planet.data.permalink | url }}">{{ planet.data.planet_name }}</a>
         </li>
     {% endfor %}
 {% endblock %}

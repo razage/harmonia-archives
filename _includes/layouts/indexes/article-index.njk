@@ -6,7 +6,7 @@
                 {% include "snippets/new-content.njk" %}
             {% endif %}
             📰
-            <a href="{{ article.data.permalink }}">{{ article.data.article_date }} - {{ article.data.article_title }}</a>
+            <a href="{{ article.data.permalink | url }}">{{ article.data.article_date }} - {{ article.data.article_title }}</a>
         </li>
     {% endfor %}
 {% endblock %}
