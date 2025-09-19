@@ -18,13 +18,13 @@ export default function (eleventyConfig) {
 
   eleventyConfig.addCollection("voxArticles", function (collectionApi) {
     return collectionApi
-      .getFilteredByGlob("harmonia-vox/*.md")
+      .getFilteredByGlob("harmonia_vox/*.md")
       .sort((a, b) => b.data.article_date.localeCompare(a.data.article_date));
   });
 
   eleventyConfig.addCollection("astraPlanets", function (collectionApi) {
     return collectionApi
-      .getFilteredByGlob("travel-agency/*.md")
+      .getFilteredByGlob("travel_agency/*.md")
       .sort((a, b) => a.data.planet_name.localeCompare(b.data.planet_name));
   });
 
