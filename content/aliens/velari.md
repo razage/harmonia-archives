@@ -39,7 +39,7 @@ behavioral_profile:
 
 traits:
   - name: "Low-G Adaptation"
-    description: "Velari physiology is optimized for low-gravity, thin-atmosphere environments like Mayrifa. On standard or high-gravity worlds, they must wear a supportive exosuit to avoid physical strain. Without a suit, after 1 hour of exertion, they suffer a -1 penalty to all rolls and accrue fatigue until they rest in a suitable environment or regain suit assistance. In microgravity or shipboard conditions, they navigate with exceptional ease, treating zero-G as second nature."
+    description: "Velari physiology is optimized for low-gravity, thin-atmosphere environments like Mayrifa. On standard or high-gravity worlds, they must wear a supportive exosuit to avoid physical strain. Without a suit, they suffer a -2 penalty to all rolls and accrue fatigue until they rest in a suitable environment or regain suit assistance. In microgravity or shipboard conditions, they navigate with exceptional ease, treating zero-G as second nature."
   - name: "Psychic Aptitude"
     description: "All Velari must be of the Psychic class or take the Partial Psychic option from the Adventurer class. Their maximum Effort score is increased by +1, reflecting their innate psionic attunement. Psychic abilities typically manifest early, with societal training treating psionics as a rite of passage, enhancing their mental versatility and influence."
   - name: "Thermal Sight (Nocturnis)"
