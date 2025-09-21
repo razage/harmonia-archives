@@ -42,7 +42,7 @@ traits:
   - name: "Ancestral Fury"
     description: "Karnak possess a Fury Pool equal to their Constitution modifier (minimum 1). As an instant action, they may spend 1 point to reroll a failed hit, saving throw, or physical skill check, declared immediately after the failure without knowing the outcome. If the reroll fails, they suffer 1 psychic damage that bypasses armor, representing ancestral disapproval. Fury points regenerate after a full night's rest or a one-hour Anisban ritual (requiring elements like fire, drummers, sacrifices, moonlight, or specific locations, varying by tribe). Rituals may only be performed once daily to avoid ancestral displeasure."
   - name: "Natural Armor"
-    description: "The Karnak's leathery skin and calcified bone plates provide an innate Armor Class of 12 plus their Constitution modifier (rounded up, minimum 0), active even when unarmored. This does not stack with worn armor; use the higher AC value."
+    description: "The Karnak's leathery skin and calcified bone plates provide an innate Armor Class of 12 plus their half of their level (rounded up, minimum 1), active even when unarmored. This does not stack with worn armor; use the higher AC value."
 
 operational_recommendations:
   - title: "Engagement Strategy"

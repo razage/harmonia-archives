@@ -43,6 +43,8 @@ traits:
     description: "Adapted to Rani’s high-gravity environment, Grundak ignore fatigue, bone stress, and pressure penalties in high-gravity conditions. They gain a +1 bonus to physical skill checks (e.g., Exert, Combat/Melee) in such environments but receive no bonus or penalty in standard or low-gravity settings. In zero-gravity, they suffer a -1 penalty to fine motor skills due to disorientation."
   - name: "Born Fixers"
     description: "Grundak culture instills mechanical aptitude from an early age. All Grundak start with the Fix skill at Rank 0 (or +1 if already trained), enabling them to maintain and repair complex systems with minimal training. However, their reliance on specialized tools can lead to delays when adapting to non-Grundak equipment."
+  - name: Tharnite Infusion
+    description: "Grundak carry trace Tharnite in their blood, granting a Tharnite Pool equal to their Constitution modifier (minimum 1). As a Main Action, they may spend 1 point to either heal 1d6 hit points or remove 1d4 System Strain. This healing cannot restore a Grundak from unconsciousness to active combat, though it may stabilize them if used while incapacitated. Points regenerate daily after a full rest or by consuming raw Tharnite (minimum 500 credits per dose, rare off-Rani)."
 
 operational_recommendations:
   - title: "Engagement Strategy"

@@ -39,11 +39,11 @@ behavioral_profile:
 
 traits:
   - name: "Photosynthetic Biology"
-    description: "Thrynn store energy from sunlight in a Solar Vigor pool equal to their Wisdom modifier (minimum 1). After 1 hour in bright natural sunlight or high-intensity synthetic light (e.g., UV grow lamps), they gain 1 point, up to the pool’s maximum, with points refreshing daily at dawn or after a full rest in light. As an Instant action, they may spend 1 point to gain one of the following for 1 minute: heal 1d4 hit points, +2 meters to movement speed, or +2 to a physical skill check. Without sunlight for 24 hours, they lose all points and suffer a -1 penalty to all skill checks until re-exposed. After 72 hours, they gain 1 level of Exhaustion daily until restored. Thrynn do not require traditional food, subsisting on sunlight and water, though they can consume food if desired."
-  - name: "Plant Immunities"
-    description: "Thrynn are immune to mundane diseases and take half damage (rounded down) from organic toxins (e.g., venom, plant-based poisons). They gain a +2 bonus to saving throws against inhaled or chemical effects (e.g., gas grenades, pollutants). However, advanced chemical weapons (TL4+) or tailored biotoxins bypass these defenses, dealing full damage."
+    description: "Thrynn store energy from sunlight in a Solar Vigor pool equal to their Wisdom modifier (minimum 1). After 1 hour in bright natural sunlight or high-intensity synthetic light (e.g., UV grow lamps), they gain 1 point, up to the pool’s maximum, with points refreshing daily at dawn or after a full rest in light. As an Instant action, they may spend 1 point to gain one of the following for 1 minute: +2 meters to movement speed or +2 to a physical skill check. Without sunlight for 24 hours, they lose all points and suffer a -1 penalty to all skill checks until re-exposed. After 72 hours, they gain 1 level of Exhaustion daily until restored. Thrynn do not require traditional food, subsisting on sunlight and water, though they can consume food if desired."
   - name: "Thorned Defense"
     description: "When struck by a melee attack, Thrynn can reflexively sprout thorns, dealing 1d4 piercing damage to the attacker within 1 meter (no attack roll needed). This costs 1 Solar Vigor point and can be used once per round as a reaction. The damage ignores non-TL4 armor, reflecting ancestral defenses, but is ineffective against ranged or energy attacks."
+  - name: "Plant Immunities"
+    description: "Thrynn are immune to mundane diseases and take half damage (rounded down) from organic toxins (e.g., venom, plant-based poisons). They gain a +2 bonus to saving throws against inhaled or chemical effects (e.g., gas grenades, pollutants). However, advanced chemical weapons (TL4+) or tailored biotoxins bypass these defenses, dealing full damage."
 
 operational_recommendations:
   - title: "Engagement Strategy"
