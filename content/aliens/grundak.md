@@ -40,7 +40,7 @@ traits:
   - name: "Hearty Constitution"
     description: "Grundak physiology ensures maximum vitality at each stage of development. Mechanically, they always roll the maximum value for the first hit die when gaining a level (e.g., a Level 1 Warrior starts with 8 HP). At higher levels, any hit die rolling a 1 is re-rolled until a higher value is achieved, reflecting their exceptional toughness."
   - name: "Gravity-Forged"
-    description: "Adapted to Rani’s high-gravity environment, Grundak ignore fatigue, bone stress, and pressure penalties in high-gravity conditions. They gain a +1 bonus to physical skill checks (e.g., Exert, Combat/Melee) in such environments but receive no bonus or penalty in standard or low-gravity settings. In zero-gravity, they suffer a -1 penalty to fine motor skills due to disorientation."
+    description: "Adapted to Rani’s high-gravity environment, Grundak ignore fatigue, bone stress, and pressure penalties in high-gravity conditions. They gain a +2 bonus to physical skill checks (e.g., Exert, Stab) in such environments but receive no bonus or penalty in standard or low-gravity settings. In zero-gravity, they suffer a -2 penalty to fine motor skills due to disorientation."
   - name: "Born Fixers"
     description: "Grundak culture instills mechanical aptitude from an early age. All Grundak start with the Fix skill at Rank 0 (or +1 if already trained), enabling them to maintain and repair complex systems with minimal training. However, their reliance on specialized tools can lead to delays when adapting to non-Grundak equipment."
   - name: Tharnite Infusion
