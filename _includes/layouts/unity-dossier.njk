@@ -1,0 +1,76 @@
+{% extends "templates/base.njk" %}
+{% block content %}
+    {% include "snippets/archive-notice.njk" %}
+    <div class="unity-page-wrapper">
+        <header class="unity-header">
+            <h1 class="unity-logo">Unity Holdings Sector Intelligence Brief</h1>
+            <p class="unity-classification">CLASSIFIED - RESTRICTED ACCESS - HARMONIA ASTRALIS OVERSIGHT</p>
+        </header>
+        <nav class="unity-nav">
+            <a href="#">Home</a>
+            <a href="#">Economic Evaluations</a>
+            <a href="#">Threat Assessments</a>
+            <a href="#">Strategic Opportunities</a>
+        </nav>
+        <section class="unity-main">
+            <h1 class="unity-planet-name">{{ planet_name }}</h1>
+            <p class="unity-system-name">System: {{ system }}</p>
+            <ul class="unity-stats">
+                <li>
+                    <strong>Atmosphere:</strong>
+                    {{ atmosphere }}</li>
+                <li>
+                    <strong>Temperature:</strong>
+                    {{ temperature }}</li>
+                <li>
+                    <strong>Population:</strong>
+                    {{ population }}</li>
+                <li>
+                    <strong>Tech Level:</strong>
+                    {{ tech_level }}</li>
+                {% if factions %}
+                    <li>
+                        <strong>Dominant Factions:</strong>
+                        {{ factions | join(', ') }}</li>
+                {% endif %}
+            </ul>
+            {% if travel_advisory %}
+                <section class="unity-advisory">
+                    <h2>Notice</h2>
+                    <p>{{ travel_advisory | safe }}</p>
+                </section>
+            {% endif %}
+            {% if description %}
+                <section class="unity-section">
+                    <h2>Overview</h2>
+                    <p>{{ description | safe }}</p>
+                </section>
+            {% endif %}
+            {% if notable_things.Places %}
+                <section class="unity-section">
+                    <h2>Key Locations</h2>
+                    <ul class="unity-places">
+                        {% for place in notable_things.Places %}
+                            <li>
+                                <strong>{{ place.name }}</strong>: {{ place.description }}
+                                {% if place.sub_locations %}
+                                    <ul class="unity-sub-locations">
+                                        {% for sub in place.sub_locations %}
+                                            <li>{{ sub.name }}: {{ sub.description }}</li>
+                                        {% endfor %}
+                                    </ul>
+                                {% endif %}
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </section>
+            {% endif %}
+            <p class="unity-disclaimer">Information classified. Unauthorized dissemination prohibited. Contact Dynara Prime for full
+                briefing.</p>
+        </section>
+        <footer class="unity-footer">
+            <p>&copy; 3200 Unity Holdings, Inc.</p>
+            <p>All data subject to imperial security protocols.</p>
+        </footer>
+    </div>
+{% endblock %}

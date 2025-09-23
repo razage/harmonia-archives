@@ -1,0 +1,195 @@
+@unity-primary: #000000;
+@unity-secondary: #005566;
+@unity-background: #ffffff;
+@unity-gray: #5a5a5a;
+@unity-font-body: 'IBM Plex Mono', 'Courier New', monospace;
+@unity-font-heading: 'Arial', sans-serif;
+
+.unity-body {
+	font-family: @unity-font-body;
+	color: @unity-primary;
+	background: @unity-background;
+	padding: 0;
+	line-height: 1.5;
+}
+
+/* Page Wrapper */
+.unity-page-wrapper {
+	max-width: 800px;
+	margin: 20px auto;
+	background: @unity-background;
+	padding: 20px;
+}
+
+/* Header */
+.unity-header {
+	text-align: center;
+	border-bottom: 1px solid @unity-gray;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+
+	.unity-logo {
+		font-family: @unity-font-heading;
+		font-size: 1.8em;
+		color: @unity-secondary;
+		margin: 0;
+	}
+
+	.unity-classification {
+		font-family: @unity-font-body;
+		font-size: 0.9em;
+		color: @unity-gray;
+		margin: 5px 0 0;
+		text-transform: uppercase;
+	}
+}
+
+/* Navigation */
+.unity-nav {
+	text-align: center;
+	margin-bottom: 20px;
+
+	a {
+		font-family: @unity-font-heading;
+		color: @unity-secondary;
+		text-decoration: none;
+		margin: 0 10px;
+		font-size: 0.9em;
+
+		&:hover {
+			cursor: not-allowed;
+		}
+	}
+}
+
+/* Main Section */
+.unity-main {
+	font-family: @unity-font-body;
+	color: @unity-primary;
+
+	.unity-planet-name {
+		font-family: @unity-font-heading;
+		font-size: 1.6em;
+		color: @unity-secondary;
+		margin: 0 0 10px;
+	}
+
+	.unity-system-name {
+		font-size: 1.1em;
+		color: @unity-gray;
+		margin: 0 0 15px;
+	}
+
+	.unity-stats {
+		list-style: none;
+		padding: 0;
+		margin: 0 0 20px;
+
+		li {
+			font-size: 0.95em;
+			margin-bottom: 5px;
+
+			strong {
+				color: @unity-secondary;
+			}
+		}
+	}
+
+	.unity-section {
+		margin-bottom: 20px;
+
+		h2 {
+			font-family: @unity-font-heading;
+			font-size: 1.2em;
+			color: @unity-secondary;
+			border-bottom: 1px solid @unity-gray;
+			padding-bottom: 5px;
+			margin: 0 0 10px;
+		}
+
+		p {
+			font-size: 0.95em;
+			line-height: 1.5;
+			margin: 0 0 10px;
+		}
+
+		.unity-places {
+			list-style: none;
+			padding: 0;
+
+			li {
+				margin-bottom: 15px;
+
+				strong {
+					color: @unity-secondary;
+				}
+
+				.unity-sub-locations {
+					list-style: disc;
+					padding-left: 20px;
+					margin: 10px 0 0;
+
+					li {
+						font-size: 0.9em;
+						color: @unity-primary;
+					}
+				}
+			}
+		}
+	}
+
+	.unity-advisory {
+		border: 1px solid @unity-gray;
+		padding: 10px;
+		margin-bottom: 20px;
+
+		h2 {
+			font-size: 1.1em;
+			margin: 0 0 5px;
+		}
+
+		p {
+			font-size: 0.9em;
+		}
+	}
+
+	.unity-disclaimer {
+		font-size: 0.85em;
+		color: @unity-gray;
+		text-align: center;
+		margin: 20px 0 0;
+
+		a {
+			color: @unity-secondary;
+			text-decoration: none;
+
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+}
+
+/* Footer */
+.unity-footer {
+	text-align: center;
+	font-family: @unity-font-body;
+	font-size: 0.85em;
+	color: @unity-gray;
+	border-top: 1px solid @unity-gray;
+	padding-top: 10px;
+	margin-top: 20px;
+}
+
+/* Watermark for Classified Feel */
+.unity-page-wrapper::before {
+	content: 'CLASSIFIED';
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%) rotate(-45deg);
+	font-family: @unity-font-body;
+	font-size: 4em;
+	color: rgba(0, 85, 102, 0.1);
+	pointer-events: none;
+}
