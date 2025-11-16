@@ -5,7 +5,7 @@ body_class: travel-body
 permalink: "acs/dynara.html"
 category: planet
 
-recent: true
+recent: false
 
 system: "Ros-0504"
 planet_name: "Dynara"

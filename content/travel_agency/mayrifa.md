@@ -5,7 +5,8 @@ body_class: travel-body
 permalink: "acs/mayrifa.html"
 category: planet
 
-recent: true
+recent: false
+
 warnings:
   atmosphere: true
 travel_advisory: "Travelers are advised to wear pressure masks outside designated areas due to Mayrifa's thin atmosphere. Major cities and facilities provide safe, filtered environments for a comfortable visit."

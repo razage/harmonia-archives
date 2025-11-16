@@ -5,7 +5,8 @@ body_class: travel-body
 permalink: "acs/triadis.html"
 category: planet
 
-recent: true
+recent: false
+
 travel_advisory: "Travelers are advised to wear pressure masks outside designated areas due to Triadis’s airless atmosphere. Major cities and facilities provide safe, filtered environments for a comfortable visit."
 warnings:
   atmosphere: true

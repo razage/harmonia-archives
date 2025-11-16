@@ -5,7 +5,7 @@ body_class: travel-body
 permalink: "acs/carbia.html"
 category: planet
 
-recent: true
+recent: false
 
 system: "Hesioni-0202"
 planet_name: "Carbia"

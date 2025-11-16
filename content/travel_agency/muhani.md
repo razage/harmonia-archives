@@ -5,7 +5,7 @@ body_class: travel-body
 permalink: "acs/muhani.html"
 category: planet
 
-recent: true
+recent: false
 
 system: "Azi-0800"
 planet_name: "Muhani"

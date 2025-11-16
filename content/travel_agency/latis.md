@@ -5,7 +5,7 @@ body_class: travel-body
 permalink: "acs/latis.html"
 category: planet
 
-recent: true
+recent: false
 
 system: "Phymete-0303"
 planet_name: "Latis"

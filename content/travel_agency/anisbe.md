@@ -5,7 +5,7 @@ body_class: travel-body
 permalink: "acs/anisbe.html"
 category: planet
 
-recent: true
+recent: false
 
 system: "Herte-0211"
 planet_name: "Anisbe"

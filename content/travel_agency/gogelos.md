@@ -5,7 +5,7 @@ body_class: travel-body
 permalink: "acs/gogelos.html"
 category: planet
 
-recent: true
+recent: false
 
 system: "Cra-0602"
 planet_name: "Gogelos"

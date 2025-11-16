@@ -5,7 +5,7 @@ body_class: travel-body
 permalink: "acs/argeus.html"
 category: planet
 
-recent: true
+recent: false
 
 system: "Mectora-0700"
 planet_name: "Argeus"

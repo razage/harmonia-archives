@@ -5,7 +5,7 @@ body_class: travel-body
 permalink: "acs/khlahme.html"
 category: planet
 
-recent: true
+recent: false
 
 system: "Manes-0105"
 planet_name: "Khlahme"

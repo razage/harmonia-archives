@@ -5,7 +5,7 @@ body_class: travel-body
 permalink: "acs/helate.html"
 category: planet
 
-recent: true
+recent: false
 
 system: "Chronstan-0709"
 planet_name: "Helate"

@@ -5,7 +5,7 @@ body_class: travel-body
 permalink: "acs/unnhild.html"
 category: planet
 
-recent: true
+recent: false
 
 system: "Jahni-0701"
 planet_name: "Unnhild"

@@ -5,7 +5,7 @@ body_class: travel-body
 permalink: "acs/rani.html"
 category: planet
 
-recent: true
+recent: false
 
 system: "Thord-0002"
 planet_name: "Rani"
