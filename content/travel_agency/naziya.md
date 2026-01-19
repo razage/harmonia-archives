@@ -6,7 +6,7 @@ permalink: "acs/naziya.html"
 category: planet
 
 planet_name: Naziya
-system: Al-Shar
+system: Al-Shar-0304
 atmosphere: Breathable mix
 temperature: Temperate
 population: 7,320,000 inhabitants
