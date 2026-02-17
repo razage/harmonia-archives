@@ -5,7 +5,7 @@ body_class: travel-body
 permalink: "acs/maka.html"
 category: planet
 
-recent: true
+recent: false
 
 planet_name: Maka
 system: Actaia-0809

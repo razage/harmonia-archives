@@ -12,7 +12,7 @@ temperature: Temperate
 population: 7,320,000 inhabitants
 tech_level: TL3
 
-recent: true
+recent: false
 
 travel_advisory: "All visitors to Naziya must land exclusively at the Naziya Interchange Complex (NIC) and are required to sign a strict non-disclosure and behavior agreement before proceeding. Disclosure of off-world technology, extraterrestrial life, or galactic affairs to local citizens is strictly prohibited and carries severe penalties. Non-human visitors are not permitted to leave the NIC facility. All surface excursions are subject to mandatory check-ins and monitoring. Astra Corona Starlines recommends full compliance with local protocols to ensure a safe and enjoyable visit."
 

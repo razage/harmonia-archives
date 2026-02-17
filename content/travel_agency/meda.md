@@ -5,7 +5,7 @@ body_class: travel-body
 permalink: "acs/meda.html"
 category: planet
 
-recent: true
+recent: false
 
 warnings: 
   atmosphere: true
